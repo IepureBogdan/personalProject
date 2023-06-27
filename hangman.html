@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="hangman.css" />
+  </head>
+  <body>
+    <div id="backBtn" class="backButton"><a href="main.html">Back</a></div>
+    <div id="container">
+      <div id="optionsContainer">
+        <h1>Hangman</h1>
+        <p class="categoryPara">Category : Countries</p>
+        <button id="resetBtn" onclick="window.location.reload()">
+          Play Again
+        </button>
+      </div>
+      <div id="hangmanDrawing">
+        <img
+          class="drawingPic"
+          src="Hangman assets/assets/picture0.png"
+          alt="hangmanpicture "
+        />
+      </div>
+
+      <div id="letterContainer"></div>
+    </div>
+    <script src="hangman.js"></script>
+  </body>
+</html>
