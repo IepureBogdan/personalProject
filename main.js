@@ -4,6 +4,7 @@ console.log('Hello World');
 
 const socialsButton = document.getElementById('socialsBtn');
 let clickCounter = 0;
+let resume = document.getElementById('resume');
 let facebook = document.getElementById('facebook');
 let instagram = document.getElementById('instagram');
 let linkedin = document.getElementById('linkedin');
@@ -21,26 +22,22 @@ socialsButton.addEventListener('click' , (showSocials) => {
     
     clickCounter++ ; 
     if (clickCounter % 2 == 0) {
-
-        facebook.style.animation = 'disapear 0.3s cubic-bezier(.3,.11,.63,1.32) reverse';
-        instagram.style.animation = 'disapear 0.6s cubic-bezier(.3,.11,.63,1.32) reverse';
-        linkedin.style.animation = 'disapear 0.9s cubic-bezier(.3,.11,.63,1.32) reverse';
-        github.style.animation = 'disapear 1.2s cubic-bezier(.3,.11,.63,1.32) reverse';
-        phone.style.animation = 'disapear 1.5s cubic-bezier(.3,.11,.63,1.32) reverse';
-        email.style.animation = 'disapear 1.8s cubic-bezier(.3,.11,.63,1.32) reverse';
+        resume.style.animation = 'disapear 0.3s cubic-bezier(.3,.11,.63,1.32) reverse';
+        facebook.style.animation = 'disapear 0.6s cubic-bezier(.3,.11,.63,1.32) reverse';
+        instagram.style.animation = 'disapear 0.9s cubic-bezier(.3,.11,.63,1.32) reverse';
+        linkedin.style.animation = 'disapear 1.2s cubic-bezier(.3,.11,.63,1.32) reverse';
+        github.style.animation = 'disapear 1.5s cubic-bezier(.3,.11,.63,1.32) reverse';
+        phone.style.animation = 'disapear 1.8s cubic-bezier(.3,.11,.63,1.32) reverse';
+        email.style.animation = 'disapear 2.1s cubic-bezier(.3,.11,.63,1.32) reverse';
 
     } else if (clickCounter % 2 == 1) {
-        facebook.style.animation = 'apear 0.3s cubic-bezier(.3,.11,.63,1.32) forwards';
-     
-        instagram.style.animation = 'apear 0.6s cubic-bezier(.3,.11,.63,1.32) forwards';
-        
-        linkedin.style.animation = 'apear 0.9s cubic-bezier(.3,.11,.63,1.32) forwards';
-        
-        github.style.animation = 'apear 1.2s cubic-bezier(.3,.11,.63,1.32) forwards';
-       
-        phone.style.animation = 'apear 1.5s cubic-bezier(.3,.11,.63,1.32) forwards';
-       
-        email.style.animation = 'apear 1.8s cubic-bezier(.3,.11,.63,1.32) forwards';
+        resume.style.animation = 'apear 0.3s cubic-bezier(.3,.11,.63,1.32) forwards';
+        facebook.style.animation = 'apear 0.6s cubic-bezier(.3,.11,.63,1.32) forwards'; 
+        instagram.style.animation = 'apear 0.9s cubic-bezier(.3,.11,.63,1.32) forwards';        
+        linkedin.style.animation = 'apear 1.2s cubic-bezier(.3,.11,.63,1.32) forwards';      
+        github.style.animation = 'apear 1.5s cubic-bezier(.3,.11,.63,1.32) forwards';
+        phone.style.animation = 'apear 1.8s cubic-bezier(.3,.11,.63,1.32) forwards';
+        email.style.animation = 'apear 2.1s cubic-bezier(.3,.11,.63,1.32) forwards';
     }
 });
 
@@ -115,4 +112,3 @@ function getHour() {
 
 setInterval(getHour
   , 1000 );
-  

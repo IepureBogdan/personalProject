@@ -61,11 +61,10 @@
 }
 
 /* social buttons */
-
-#facebook {
+#resume {
     
     position: absolute;
-    background-image: url(assets/socials/2021_Facebook_icon.svg);
+    background-image: url(assets/socials/1870080.png);
     background-size: cover;
     width: 3rem;
     height: 3rem;
@@ -76,14 +75,28 @@
     
 }
 
+#facebook {
+    
+    position: absolute;
+    background-image: url(assets/socials/2021_Facebook_icon.svg);
+    background-size: cover;
+    width: 3rem;
+    height: 3rem;
+    top: 15rem;
+    left: -5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
 #instagram {
-   
+
     position: absolute;
     background-image: url(assets/socials/Instagram_icon.png);
     background-size: cover;
     width: 3rem;
     height: 3rem;
-    top: 15rem;
+    top: 20rem;
     left: -5rem;
     border-radius: 25%;
     cursor: pointer;
@@ -91,13 +104,13 @@
 }
 
 #linkedin {
-   
+
     position: absolute;
     background-image: url(assets/socials/LinkedIn_logo_initials.png);
     background-size: cover;
     width: 3rem;
     height: 3rem;
-    top: 20rem;
+    top: 25rem;
     left: -5rem;
     border-radius: 20%;
     cursor: pointer;
@@ -107,38 +120,38 @@
 #github {
     
     position: absolute;
-    background-image: url(assets/socials/github-mark-white.png);
+    background-image: url(assets/socials/github-icon-2048x1988-jzvzcf2t.png);
     background-size:cover;
     width: 3rem;
     height: 3rem;
-    top: 25rem;
+    top: 30rem;
     left: -5rem;
     border-radius: 50%;
     cursor: pointer;
-   
+
 }
 
 #phone {
-   
+
     position: absolute;
     background-image: url(assets/socials/phone-flat.png);
     background-size: cover;
     width: 3rem;
     height: 3rem;
-    top: 30rem;
+    top: 35rem;
     left: -5rem;
     border-radius: 20%;
     cursor: pointer;
 }
 
 #email {
-   
+
     position: absolute;
     background-image: url(assets/socials/3158180.png);
     background-size: cover;
     width: 3rem;
     height: 3rem;
-    top: 35rem;
+    top: 40rem;
     left: -5rem;
     border-radius: 20%;
     cursor: pointer;
@@ -174,23 +187,23 @@
     width: 100%;
     height: 100%;
     
-  }
+}
 
-  .swiper-slide {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .swiper-slide img {
-     display: block;
+.swiper-slide img {
+    display: block;
     /* width: 100%;
     height: 100%; */
     object-fit:fill;
-  }
+}
 
 .swiper-button-next {
     top:unset !important;
