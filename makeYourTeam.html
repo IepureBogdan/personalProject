@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>makeYourTeam</title>
+    <link rel="stylesheet" href="makeYourTeam.css" />
+    <script
+      src="https://kit.fontawesome.com/6fe98b0a5a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="goalkeeper" class="playerCard">
+      <div class="playerPhoto"></div>
+      <!-- <ol class="playerInfo">
+        <li class="firstName"></li>
+        <li class="lastName"></li>
+        <li class="position">Goalkeeper</li>
+        <li class="number"></li>
+        <li class="age"></li>
+      </ol> -->
+    </div>
+    <div id="leftWing" class="playerCard">
+      <div class="playerPhoto"></div>
+      <!-- <ol class="playerInfo">
+        <li class="firstName"></li>
+        <li class="lastName"></li>
+        <li class="position">Left Wing</li>
+        <li class="number"></li>
+        <li class="age"></li>
+      </ol> -->
+    </div>
+    <div id="leftBack" class="playerCard">
+      <div class="playerPhoto"></div>
+      <!-- <ol class="playerInfo">
+        <li class="firstName"></li>
+        <li class="lastName"></li>
+        <li class="position">Left Back</li>
+        <li class="number"></li>
+        <li class="age"></li>
+      </ol> -->
+    </div>
+    <div id="center" class="playerCard">
+      <div class="playerPhoto"></div>
+      <!-- <ol class="playerInfo">
+        <li class="firstName"></li>
+        <li class="lastName"></li>
+        <li class="position">Center</li>
+        <li class="number"></li>
+        <li class="age"></li>
+      </ol> -->
+    </div>
+    <div id="rightBack" class="playerCard">
+      <div class="playerPhoto"></div>
+      <!-- <ol class="playerInfo">
+        <li class="firstName"></li>
+        <li class="lastName"></li>
+        <li class="position">Right Back</li>
+        <li class="number"></li>
+        <li class="age"></li>
+      </ol> -->
+    </div>
+    <div id="rightWing" class="playerCard">
+      <div class="playerPhoto"></div>
+      <!-- <ol class="playerInfo">
+        <li class="firstName"></li>
+        <li class="lastName"></li>
+        <li class="position">Right Wing</li>
+        <li class="number"></li>
+        <li class="age"></li>
+      </ol> -->
+    </div>
+    <div id="pivot" class="playerCard">
+      <div class="playerPhoto"></div>
+      <!-- <ol class="playerInfo">
+        <li class="firstName"></li>
+        <li class="lastName"></li>
+        <li class="position">Pivot</li>
+        <li class="number"></li>
+        <li class="age"></li>
+      </ol> -->
+    </div>
+    <div id="addButton">
+      <i class="fa-solid fa-plus fa-beat fa-2xl" style="color: #010204"></i>
+    </div>
+
+    <form id="addPlayer">
+      <label for="playerFirstName">First Name</label>
+      <input type="text" id="playerFirstName" />
+      <label for="playerLastName">Last Name</label>
+      <input type="text" id="playerLastName" />
+      <label for="position">Position</label>
+      <select id="position" size="1">
+        <option value="Goalkeeper">Goalkeeper</option>
+        <option value="Left Wing">Left Wing</option>
+        <option value="Left Back">Left Back</option>
+        <option value="Center">Center</option>
+        <option value="Right Back">Right Back</option>
+        <option value="Right Wing">Right Wing</option>
+        <option value="Pivot">Pivot</option>
+      </select>
+      <label for="playerNumber">Number</label>
+      <input type="text" id="playerNumber" />
+      <label for="playerAge">Age</label>
+      <input type="text" id="playerAge" />
+      <input type="submit" value="Add Player" />
+    </form>
+
+    <script src="makeYourTeam.js"></script>
+  </body>
+</html>

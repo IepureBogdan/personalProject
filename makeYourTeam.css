@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    background-image: url(oopSportsAssets/perspective-view-half-field-for-handball-orange-outline-of-lines-handball-field-illustration-vector.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* add player button */
+
+#addButton {
+    background-color: #60C571;
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    top: 10rem;
+    left: 5rem;
+    border: solid #000000 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#addButton i {
+    font-size: 6rem;
+}
+/* add player form */
+
+#addPlayer {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: 30rem;
+    height: 40rem;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    top: 6rem;
+    left:37%;
+}
+
+
+/* Player Cards */
+
+.playerCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.playerPhoto {
+    position: absolute;
+    background-image: url(oopSportsAssets/avatar-.jpg);
+    background-size: cover;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    top: 0.5rem;
+}
+
+ul {
+    position: absolute;
+    top: 7rem;
+}
+
+
+#goalkeeper{
+    display: none;
+    background-color: aliceblue;
+    position: absolute;
+    width: 10rem;
+    height: 15rem;
+    bottom: 3rem;
+    left:45.5%;
+    border-radius: 10px;
+}
+#leftWing{
+    display: none;
+    background-color: aliceblue;
+    position: absolute;
+    width: 10rem;
+    height: 15rem;
+    right: 15rem;
+    bottom: 8rem;
+    border-radius: 10px;
+
+}
+#leftBack{
+    display: none;
+    background-color: aliceblue;
+    position: absolute;
+    width: 10rem;
+    height: 15rem;
+    top: 8rem;
+    right: 25rem;
+    border-radius: 10px;
+}
+#center{
+    display: none;
+    background-color: aliceblue;
+    position: absolute;
+    width: 10rem;
+    height: 15rem;
+    top:2rem;
+    left: 45.5%;
+    border-radius: 10px;
+}
+#rightBack{
+    display: none;
+    background-color: aliceblue;
+    position: absolute;
+    width: 10rem;
+    height: 15rem;
+    top: 8rem;
+    left: 25rem;
+    border-radius: 10px;
+}
+#rightWing{
+    display: none;
+    background-color: aliceblue;
+    position: absolute;
+    width: 10rem;
+    height: 15rem;
+    left: 15rem;
+    bottom: 8rem;
+    border-radius: 10px;
+}
+#pivot{
+    display: none;
+    background-color: aliceblue;
+    position: absolute;
+    width: 10rem;
+    height: 15rem;
+    left:45.5%;
+    bottom: 25rem;
+    border-radius: 10px;
+}   
