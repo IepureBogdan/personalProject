@@ -33,7 +33,7 @@ class PlayerInfo {
         <li class="firstName">${player.firstName}</li>
         <li class="lastName">${player.lastName}</li>
         <li class="position">${player.position}</li>
-        <li class="number">Shirt no. ${player.number}</li>
+        <li class="number">Jersey no. ${player.number}</li>
         <li class="age">${player.age} Years Old</li> `;
 
         if (player.position == 'Goalkeeper') {
