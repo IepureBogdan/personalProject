@@ -9,7 +9,7 @@
     height: 100vh;
     width: 100vw;
     background-size: cover;
-    background-image: url(assets/Untitled.jpg);
+    background-image: url(assets/image00001.jpeg);
     display: flex;
     
 }
@@ -18,9 +18,9 @@
     position: absolute;
     display: flex;
     background-color: white;
-    width: 48rem;
+    width: 45rem;
     height: 100vh;
-    right: -48rem;
+    right: -45rem;
     border-top-left-radius: 30%;
 
 }
@@ -44,7 +44,7 @@
     top: 4rem;
     left: 4rem;
     border-radius: 20%;
-    animation: pulse 1s ease-in forwards 5 alternate;
+    animation: pulse 1s ease-in forwards 3 alternate;
     cursor: pointer;
 }
 
@@ -197,7 +197,7 @@
     justify-content: center;
     align-items: center;
 }
-.swiper-slide:nth-child(4) img{
+.swiper-slide:nth-child(4) img:hover{
     filter: grayscale(100%);
 }
 
@@ -260,3 +260,375 @@
 
 /* responsive */
 
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+    #resume  {
+        width: 2.5rem;
+        height: 2.5rem;
+        
+    }
+    #facebook  {
+        width: 2.5rem;
+        height: 2.5rem;
+
+    }
+    #instagram  {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    #linkedin  {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    #github  {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    #phone  {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    #email  {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    #socialsBtn {
+        width: 3rem;
+        height: 3rem;
+    }
+    #backgroundDiv {
+        background-size: 100% 100%;
+    }
+    #clockWeather {
+        width: 12rem;
+        height: 8rem;
+    }
+    #clock{
+        height: 4rem;
+        font-size: 2.5rem;
+    }
+    #weather{
+        height: 4rem;
+        font-size: 2.5rem;
+    }
+    #rightSide {
+        width: 38rem;
+    }
+    .swiper-slide img {
+        width: 25rem;
+        
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    #resume  {
+        width: 2.5rem;
+        height: 2.5rem;
+        top: 10rem;
+    }
+    #facebook  {
+        width: 2.5rem;
+        height: 2.5rem;
+        top:13.5rem;
+    }
+    #instagram  {
+        width: 2.5rem;
+        height: 2.5rem;
+        top:17rem;
+    }
+    #linkedin  {
+        width: 2.5rem;
+        height: 2.5rem;
+        top:20.5rem;
+    }
+    #github  {
+        width: 2.5rem;
+        height: 2.5rem;
+        top:24rem;
+    }
+    #phone  {
+        width: 2.5rem;
+        height: 2.5rem;
+        top:27.5rem;
+    }
+    #email  {
+        width: 2.5rem;
+        height: 2.5rem;
+        top:31rem;
+    }
+    #socialsBtn {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    #backgroundDiv {
+        background-size: 100% 100%;
+    }
+    #clockWeather {
+        width: 9.5rem;
+        height: 6rem;
+    }
+    #clock{
+        height: 3rem;
+        font-size: 2rem;
+    }
+    #weather{
+        height: 3rem;
+        font-size: 2rem;
+    }
+    #rightSide {
+        width: 30rem;
+    }
+    .swiper-slide img {
+        width: 20rem;
+        
+    }
+    .swiper-button-next {
+        width: 45px;
+        height: 45px;
+    }
+    .swiper-button-prev {
+        width: 45px;
+        height: 45px;
+    }
+    .swiper-pagination-bullet {
+        height: 10px;
+        width: 10px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    #resume  {
+        width: 2.5rem;
+        height: 2.5rem;
+        top: -5rem;
+        left: 8rem;
+    }
+    #facebook  {
+        width: 2.5rem;
+        height: 2.5rem;
+        top: -5rem;
+        left: 11.5rem;
+    }
+    #instagram  {
+        width: 2.5rem;
+        height: 2.5rem;
+        top: -5rem;
+        left: 15rem;
+    }
+    #linkedin  {
+        width: 2.5rem;
+        height: 2.5rem;
+        top: -5rem;
+        left: 18.5rem;
+    }
+    #github  {
+        width: 2.5rem;
+        height: 2.5rem;
+        top: -5rem;
+        left: 22rem;
+    }
+    #phone  {
+        width: 2.5rem;
+        height: 2.5rem;
+        top: -5rem;
+        left: 25.5rem;
+    }
+    #email  {
+        width: 2.5rem;
+        height: 2.5rem;
+        top: -5rem;
+        left: 28.5rem;
+    }
+    @keyframes apear {
+        0% {
+            opacity: 0;
+        }
+    
+        100%{
+            transform: translateY(7rem);
+            opacity: 1;
+        }
+    }
+    @keyframes disapear {
+        0% {
+            opacity: 0;
+        }
+    
+        100% {
+            transform: translateY(7rem);
+            opacity: 1;
+        }
+    }
+    #socialsBtn {
+        top: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    #backgroundDiv {
+        height: 50vh;
+        width: 100vw;
+        background-size: 100% 100%;
+    }
+    #clockWeather {
+        position: absolute;
+        top:20rem;
+        left: 2rem;
+        width: 9.5rem;
+        height: 6rem;
+    }
+    #clock{
+        height: 3rem;
+        font-size: 2rem;
+    }
+    #weather{
+        height: 3rem;
+        font-size: 2rem;
+    }
+    #rightSide {
+        position: absolute;
+        bottom: 0;
+        height: 55vh;
+        width: 100vw;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        animation: none;
+        right: 0;
+    }
+    .swiper-slide img {
+        width: 20rem;
+        
+    }
+    .swiper-button-next {
+        width: 45px;
+        height: 45px;
+    }
+    .swiper-button-prev {
+        width: 45px;
+        height: 45px;
+    }
+    .swiper-pagination-bullet {
+        height: 10px;
+        width: 10px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 479px) {
+    #resume  {
+        width: 2rem;
+        height: 2rem;
+        top: -5rem;
+        left: 5rem;
+    }
+    #facebook  {
+        width: 2rem;
+        height: 2rem;
+        top: -5rem;
+        left: 8rem;
+    }
+    #instagram  {
+        width: 2rem;
+        height: 2rem;
+        top: -5rem;
+        left: 11rem;
+    }
+    #linkedin  {
+        width: 2rem;
+        height: 2rem;
+        top: -5rem;
+        left: 14rem;
+    }
+    #github  {
+        width: 2rem;
+        height: 2rem;
+        top: -5rem;
+        left: 17rem;
+    }
+    #phone  {
+        width: 2rem;
+        height: 2rem;
+        top: -5rem;
+        left: 20rem;
+    }
+    #email  {
+        width: 2rem;
+        height: 2rem;
+        top: -5rem;
+        left: 23rem;
+    }
+    @keyframes apear {
+        0% {
+            opacity: 0;
+        }
+    
+        100%{
+            transform: translateY(7rem);
+            opacity: 1;
+        }
+    }
+    @keyframes disapear {
+        0% {
+            opacity: 0;
+        }
+    
+        100% {
+            transform: translateY(7rem);
+            opacity: 1;
+        }
+    }
+    #socialsBtn {
+        left: 1.5rem;
+        top: 2rem;
+        width: 2rem;
+        height: 2rem;
+    }
+    #backgroundDiv {
+        height: 50vh;
+        width: 100vw;
+        background-size: 100% 100%;
+    }
+    #clockWeather {
+        position: absolute;
+        top:17rem;
+        left: 2rem;
+        width: 9.5rem;
+        height: 6rem;
+    }
+    #clock{
+        height: 3rem;
+        font-size: 2rem;
+    }
+    #weather{
+        height: 3rem;
+        font-size: 2rem;
+    }
+    #rightSide {
+        position: absolute;
+        bottom: 0;
+        height: 55vh;
+        width: 100vw;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        animation: none;
+        right: 0;
+    }
+    .swiper-slide img {
+        width: 20rem;
+        
+    }
+    .swiper-button-next {
+        width: 35px;
+        height: 35px;
+    }
+    .swiper-button-prev {
+        width: 35px;
+        height: 35px;
+    }
+    .swiper-pagination-bullet {
+        height: 10px;
+        width: 10px;
+    }
+
+}

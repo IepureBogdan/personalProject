@@ -29,7 +29,7 @@ socialsButton.addEventListener('click' , (showSocials) => {
         github.style.animation = 'disapear 1.5s cubic-bezier(.3,.11,.63,1.32) reverse';
         phone.style.animation = 'disapear 1.8s cubic-bezier(.3,.11,.63,1.32) reverse';
         email.style.animation = 'disapear 2.1s cubic-bezier(.3,.11,.63,1.32) reverse';
-
+        
     } else if (clickCounter % 2 == 1) {
         resume.style.animation = 'apear 0.3s cubic-bezier(.3,.11,.63,1.32) forwards';
         facebook.style.animation = 'apear 0.6s cubic-bezier(.3,.11,.63,1.32) forwards'; 
@@ -44,7 +44,7 @@ socialsButton.addEventListener('click' , (showSocials) => {
 
 setTimeout(() => {
     rightSide.style.animation = 'rightApear 0.6s ease forwards';
-  },5000);
+  },3000);
 
 
 var swiper = new Swiper(".mySwiper", {
@@ -85,7 +85,8 @@ axios.get('https://api.open-meteo.com/v1/forecast?latitude=46.77&longitude=23.60
         weather.append('💧');
       }
 }, err => {
-    console.log(err)
+    weather.style.fontSize = '25px'
+    weather.innerHTML = 'The sun is in your heart !';
 })
 
 
@@ -101,13 +102,17 @@ function getHour() {
         .then((response) => {
                 return response.json()
             })
-        .then(hour => {
+        .then((hour) => {
 
                 let liveHour = hour.datetime.substr(11, 11);
                 
                 clock.innerHTML = liveHour.substr(0,8);
                 
             })
+        .catch((err) => {
+          clock.style.fontSize = '25px'
+          clock.innerHTML = 'Quit counting time and start making time count !'
+        })
 }
 
 setInterval(getHour
