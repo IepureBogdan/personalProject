@@ -114,7 +114,6 @@ h1 {
 
 }
 
-
 /* game Word container  */
 
 .randomCountry {
@@ -162,7 +161,6 @@ a {
 
 /* Media query  */
 
-
 @media  (min-width:1025px) {
     #optionsContainer {
         margin-top: 1.5rem; 
@@ -189,7 +187,6 @@ a {
     }
 
     /* #resetBtn {
-
     } */
 
     #optionsContainer {

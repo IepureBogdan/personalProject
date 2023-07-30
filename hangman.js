@@ -34,19 +34,15 @@ for(let i=0; i<letters.length;i++){
 
 }
 
-
-
 // };
 // generateBtn();
 
-
 // letter Button function  
-
 
 function chosenLetter(chosenLtr) {
     
     
-    // buttonLetter = chosenLtr;
+// buttonLetter = chosenLtr;
     let letterIndex = randomCountry.indexOf(chosenLtr);
     document.getElementById(chosenLtr).disabled = true ;
     
@@ -70,9 +66,7 @@ function chosenLetter(chosenLtr) {
         wrongAnswer += 1
         document.getElementById('hangmanDrawing').innerHTML = `<img src="Hangman assets/assets/picture${wrongAnswer}.png">`;
     }
-    
-    
-    
+
     // test button task
     // letterContainer.style.backgroundColor = "red";
     console.log(gamerChoice);
@@ -82,7 +76,7 @@ function chosenLetter(chosenLtr) {
     console.log(letterIndex);
     console.log(gameLetter);
     
-    // Win / Lose section with setTimeout for better user experience
+// Win / Lose section with setTimeout for better user experience
 
     if (wrongAnswer === maxWrongAnswer) {
         setTimeout( () => {
@@ -110,7 +104,6 @@ function randomCtr () {
 };
 randomCtr();
 
-
 function displayWord() {
     
     // let gameLetter = document.createElement('p');
@@ -120,7 +113,7 @@ function displayWord() {
         randomLetters = ` _ `
         // '<span class="underline">&nbsp;_&nbsp;</span>'
         // gameLetter += randomLetters;
-         
+
         gameLetter.push(randomLetters);
     }
     
@@ -135,14 +128,14 @@ function displayWord() {
     
 
 }
- displayWord();
+displayWord();
 
 
 
- const mistakesCounter = document.createElement('div');
- mistakesCounter.textContent = `Mistakes : ${wrongAnswer} from maximum of ${maxWrongAnswer}`;
- optionsContainer.append(mistakesCounter);
- mistakesCounter.classList.add('mistakesCounter');
+const mistakesCounter = document.createElement('div');
+mistakesCounter.textContent = `Mistakes : ${wrongAnswer} from maximum of ${maxWrongAnswer}`;
+optionsContainer.append(mistakesCounter);
+mistakesCounter.classList.add('mistakesCounter');
 
 
 

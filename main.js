@@ -65,7 +65,6 @@ var swiper = new Swiper(".mySwiper", {
 
 });
 
-
 // clock and weather requests 
 
 
@@ -90,11 +89,7 @@ axios.get('https://api.open-meteo.com/v1/forecast?latitude=46.77&longitude=23.60
 })
 
 
-
-
 //  using fetch 
-
-
 
 
 function getHour() {

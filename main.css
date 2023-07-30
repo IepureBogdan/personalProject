@@ -33,7 +33,6 @@
     }
 }
 
-
 #socialsBtn {
     background-image: url(assets/socials/14455.png);
     background-size: cover;
@@ -61,6 +60,7 @@
 }
 
 /* social buttons */
+
 #resume {
     
     position: absolute;
@@ -180,7 +180,6 @@
     }
 }
 
-
 /* Swiper customization */
 
 .swiper {
@@ -256,7 +255,6 @@
     font-size: 3rem;
     color: #ffffff;
 }
-
 
 /* responsive */
 
