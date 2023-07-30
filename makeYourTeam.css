@@ -55,8 +55,6 @@ body {
     width: 25rem;
     height: 22px;
     border-radius: 5px;
-    
-
 }
 label {
     background: none !important;
@@ -190,7 +188,6 @@ li {
     margin-top: 0.6rem;
     margin-left: 0.6rem;
     cursor:pointer;
-    
 }
 a {
     text-decoration: none;

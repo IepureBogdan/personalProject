@@ -69,7 +69,6 @@ class PlayerInfo {
         document.getElementById('playerNumber').value='';
         document.getElementById('playerAge').value = '';
     }
-
 }
 
 // adding players 
@@ -98,6 +97,7 @@ document.querySelector('#addPlayer').addEventListener('submit',
     }
 )
 
+// Button for adding players
 
 document.querySelector('#addButton').addEventListener('click' , () => {
     addPlayer.style.display = 'flex';
