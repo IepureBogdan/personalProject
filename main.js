@@ -82,8 +82,7 @@ axios.get('https://api.open-meteo.com/v1/forecast?latitude=46.77&longitude=23.60
       }
       else {
         weather.append('💧');
-      }
-      
+      }     
 }, err => {
     weather.style.fontSize = '25px'
     weather.innerHTML = 'The sun is in your heart !';
