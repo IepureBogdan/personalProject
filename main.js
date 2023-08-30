@@ -93,7 +93,7 @@ axios.get('https://api.open-meteo.com/v1/forecast?latitude=46.77&longitude=23.60
 
 
 function getHour() {
-  fetch('http://worldtimeapi.org/api/timezone/Europe/Bucharest')
+  fetch('https://worldtimeapi.org/api/timezone/Europe/Bucharest')
         .then((response) => {
                 return response.json()
             })
