@@ -1,2 +1,0 @@
-# personalProject
-My Work
